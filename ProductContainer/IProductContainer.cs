@@ -1,0 +1,14 @@
+﻿using lab3_1_.Products;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace lab3_1_.ProductContainer
+{
+    public interface IProductContainer
+    {
+        IEnumerable<Product> Products { get; }
+    }
+}
